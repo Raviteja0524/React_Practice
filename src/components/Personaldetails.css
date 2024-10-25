@@ -1,0 +1,116 @@
+.form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  background-color: #000; /* Black background */
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Darker shadow for better contrast */
+  color: #fff; /* White text for better readability */
+}
+
+.form-title {
+  font-size: 2em;
+  margin-bottom: 20px;
+  color: #fff; /* White text */
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 500px;
+}
+
+.label {
+  margin-bottom: 10px;
+  font-size: 1em;
+  color: #ccc; /* Light grey text */
+  font-weight: bold;
+}
+
+.input {
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #555; /* Darker border */
+  border-radius: 5px;
+  font-size: 1em;
+  width: 100%;
+  background-color: #333; /* Dark grey input background */
+  color: #fff; /* White text */
+}
+
+.field {
+  margin-bottom: 15px;
+}
+
+.field label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+  font-size: 1em;
+  color: #ccc; /* Light grey text */
+}
+
+.field input {
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #555; /* Darker border */
+  border-radius: 5px;
+  font-size: 1em;
+  width: 100%;
+  background-color: #333; /* Dark grey input background */
+  color: #fff; /* White text */
+}
+
+.submit-button {
+  padding: 10px 5px; /* Increased padding for larger button */
+  border: none;
+  border-radius: 5px;
+  font-size: 1.2em; /* Increased font size */
+  background-color: #007bff; /* Blue background */
+  color: #fff; /* White text */
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.save-button {
+  padding: 10px 5px; /* Increased padding for larger button */
+  border: none;
+  border-radius: 5px;
+  font-size: 1.2em; /* Increased font size */
+  background-color: #007bff; /* Blue background */
+  color: #fff; /* White text */
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.submit-button:hover {
+  background-color: #607387; /* Darker blue on hover */
+}
+
+.books_search {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  background-color: #222; /* Darker background for contrast */
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Darker shadow for better contrast */
+  color: #fff; /* White text for better readability */
+  margin-top: 20px; /* Space above the books section */
+}
+
+.books-button {
+  padding: 10px 5px; /* Increased padding for larger button */
+  border: none;
+  border-radius: 5px;
+  font-size: 1.2em; /* Increased font size */
+  background-color: #28a745; /* Green background */
+  color: #fff; /* White text */
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.books-button:hover {
+  background-color: #218838; /* Darker green on hover */
+}
